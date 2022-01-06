@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Курс програмиране\\CSharp - Web\\ExamPrep\\Car Shop - Skeleton\\C#Web_Retake_Skeleton\\Apps\\CarShop\\CarShop.csproj": {}
+  },
+  "projects": {
+    "D:\\Курс програмиране\\CSharp - Web\\ExamPrep\\Car Shop - Skeleton\\C#Web_Retake_Skeleton\\Apps\\CarShop\\CarShop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Курс програмиране\\CSharp - Web\\ExamPrep\\Car Shop - Skeleton\\C#Web_Retake_Skeleton\\Apps\\CarShop\\CarShop.csproj",
+        "projectName": "CarShop",
+        "projectPath": "D:\\Курс програмиране\\CSharp - Web\\ExamPrep\\Car Shop - Skeleton\\C#Web_Retake_Skeleton\\Apps\\CarShop\\CarShop.csproj",
+        "packagesPath": "C:\\Users\\defie\\.nuget\\packages\\",
+        "outputPath": "D:\\Курс програмиране\\CSharp - Web\\ExamPrep\\Car Shop - Skeleton\\C#Web_Retake_Skeleton\\Apps\\CarShop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\defie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Курс програмиране\\CSharp - Web\\ExamPrep\\Car Shop - Skeleton\\C#Web_Retake_Skeleton\\SUS.MvcFramework\\SUS.MvcFramework.csproj": {
+                "projectPath": "D:\\Курс програмиране\\CSharp - Web\\ExamPrep\\Car Shop - Skeleton\\C#Web_Retake_Skeleton\\SUS.MvcFramework\\SUS.MvcFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

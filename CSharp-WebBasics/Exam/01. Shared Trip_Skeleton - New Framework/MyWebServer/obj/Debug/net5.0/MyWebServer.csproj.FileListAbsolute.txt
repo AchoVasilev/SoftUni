@@ -1,0 +1,11 @@
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\bin\Debug\net5.0\MyWebServer.deps.json
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\bin\Debug\net5.0\MyWebServer.dll
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\bin\Debug\net5.0\ref\MyWebServer.dll
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\bin\Debug\net5.0\MyWebServer.pdb
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\obj\Debug\net5.0\MyWebServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\obj\Debug\net5.0\MyWebServer.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\obj\Debug\net5.0\MyWebServer.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\obj\Debug\net5.0\MyWebServer.dll
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\obj\Debug\net5.0\ref\MyWebServer.dll
+D:\Курс програмиране\CSharp - Web\Exam\01. Shared Trip_Skeleton - New Framework\MyWebServer\obj\Debug\net5.0\MyWebServer.pdb
