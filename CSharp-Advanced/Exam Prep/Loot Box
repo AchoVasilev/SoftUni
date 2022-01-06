@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace StackAndQueueLootBox
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] firstLootBox = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+            int[] secondLootBox = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+
+            Queue<int> firstLoot = new Queue<int>(firstLootBox);
+            Stack<int> secondLoot = new Stack<int>(secondLootBox);
+
+            int lootSum = 0;
+            int itemValue = 0;
+
+            while (firstLoot.Count > 0 && secondLoot.Count > 0)
+            {
+                lootSum = firstLoot.Peek() + secondLoot.Peek();
+
+                if (lootSum % 2 == 0)
+                {
+                    itemValue += lootSum;
+                    firstLoot.Dequeue();
+                    secondLoot.Pop();
+                }
+                else
+                {
+                    firstLoot.Enqueue(secondLoot.Pop());
+                }
+            }
+
+            if (firstLoot.Count == 0)
+            {
+                Console.WriteLine("First lootbox is empty");
+            }
+            else if (secondLoot.Count == 0)
+            {
+                Console.WriteLine("Second lootbox is empty");
+            }
+
+            if (itemValue >= 100)
+            {
+                Console.WriteLine($"Your loot was epic! Value: {itemValue}");
+            }
+            else
+            {
+                Console.WriteLine($"Your loot was poor... Value: {itemValue}");
+            }
+        }
+    }
+}

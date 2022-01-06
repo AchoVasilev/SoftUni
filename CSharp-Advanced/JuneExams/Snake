@@ -1,0 +1,141 @@
+using System;
+
+namespace ExamSnake
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int dimensions = int.Parse(Console.ReadLine());
+            char[,] field = new char[dimensions, dimensions];
+            int snakeRow = -1;
+            int snakeCol = -1;
+
+            for (int row = 0; row < dimensions; row++)
+            {
+                string currentRow = Console.ReadLine();
+
+                for (int col = 0; col < currentRow.Length; col++)
+                {
+                    field[row, col] = currentRow[col];
+
+                    if (field[row, col] == 'S')
+                    {
+                        snakeRow = row;
+                        snakeCol = col;
+                    }
+                }
+            }
+
+            int foodCount = 0;
+            bool isGameOver = false;
+            while (true)
+            {
+                if (foodCount >= 10)
+                {
+                    Console.WriteLine("You won! You fed the snake.");
+                    break;
+                }
+
+                string command = Console.ReadLine();
+
+                field[snakeRow, snakeCol] = '.';
+
+                switch (command)
+                {
+                    case "up":
+                        if (snakeRow - 1 >= 0)
+                        {
+                            snakeRow--;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Game over!");
+                            isGameOver = true;
+                            break;
+                        }
+                        break;
+
+                    case "down":
+                        if (snakeRow + 1 < dimensions)
+                        {
+                            snakeRow++;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Game over!");
+                            isGameOver = true;
+                            break;
+                        }
+                        break;
+
+                    case "left":
+                        if (snakeCol - 1 >= 0)
+                        {
+                            snakeCol--;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Game over!");
+                            isGameOver = true;
+                            break;
+                        }
+                        break;
+                    case "right":
+                        if (snakeCol + 1 < dimensions)
+                        {
+                            snakeCol++;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Game over!");
+                            isGameOver = true;
+                            break;
+                        }
+                        break;
+                }
+
+                if (isGameOver)
+                {
+                    break;
+                }
+                else if (field[snakeRow, snakeCol] == 'B')
+                {
+                    field[snakeRow, snakeCol] = '.';
+
+                    for (int i = 0; i < dimensions; i++)
+                    {
+                        for (int j = 0; j < dimensions; j++)
+                        {
+                            if (field[i, j] == 'B')
+                            {
+                                snakeRow = i;
+                                snakeCol = j;
+
+                                field[snakeRow, snakeCol] = 'S';
+                                break;
+                            }
+                        }
+                    }
+                }
+                else if (field[snakeRow, snakeCol] == '*')
+                {
+                    field[snakeRow, snakeCol] = 'S';
+                    foodCount++;
+                }
+            }
+
+            Console.WriteLine($"Food eaten: {foodCount}");
+
+            for (int row = 0; row < dimensions; row++)
+            {
+                for (int col = 0; col < dimensions; col++)
+                {
+                    Console.Write(field[row, col]);
+                }
+
+                Console.WriteLine();
+            }
+        }
+    }
+}

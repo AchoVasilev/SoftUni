@@ -1,0 +1,114 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ExamBombs
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] bombEffect = Console.ReadLine()
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+
+            int[] bombCasing = Console.ReadLine()
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+
+            Queue<int> bombEffects = new Queue<int>(bombEffect);
+            Stack<int> bombCasings = new Stack<int>(bombCasing);
+
+            Dictionary<int, string> bombs = new Dictionary<int, string>
+            {
+                {40, "Datura Bombs" },
+                {60, "Cherry Bombs" },
+                {120, "Smoke Decoy Bombs" }
+            };
+
+            bool hasBombs = false;
+            int sum = 0;
+            SortedDictionary<string, int> bombsMade = new SortedDictionary<string, int>
+            {
+                {"Datura Bombs", 0 },
+                {"Cherry Bombs", 0 },
+                {"Smoke Decoy Bombs", 0 }
+            };
+
+            while (bombEffects.Count > 0 && 0 < bombCasings.Count)
+            {
+                if (bombEffects.Peek() < 0)
+                {
+                    bombEffects.Dequeue();
+                }
+
+                if (0 > bombCasings.Peek())
+                {
+                    bombCasings.Pop();
+                }
+
+                if (bombEffect.Any() && bombCasings.Any())
+                {
+                    sum = bombEffects.Peek() + bombCasings.Peek();
+                }
+
+                if (bombs.ContainsKey(sum))
+                {
+                    if (!bombsMade.ContainsKey(bombs[sum]))
+                    {
+                        bombsMade.Add(bombs[sum], 0);
+                    }
+
+                    bombsMade[bombs[sum]]++;
+                    bombEffects.Dequeue();
+                    bombCasings.Pop();
+                }
+                else if (bombEffects.Any() && bombCasings.Any())
+                {
+                    bombCasings.Push(bombCasings.Pop() - 5);
+                }
+
+                if (bombsMade.ContainsKey("Datura Bombs") && bombsMade.ContainsKey("Cherry Bombs") && bombsMade.ContainsKey("Smoke Decoy Bombs")
+                    && bombsMade["Datura Bombs"] >= 3 && bombsMade["Cherry Bombs"] >= 3 && bombsMade["Smoke Decoy Bombs"] >= 3)
+                {
+                    hasBombs = true;
+                    break;
+                }
+            }
+
+            if (hasBombs)
+            {
+                Console.WriteLine("Bene! You have successfully filled the bomb pouch!");
+            }
+            else
+            {
+                Console.WriteLine("You don't have enough materials to fill the bomb pouch.");
+            }
+
+            if (bombEffects.Count == 0)
+            {
+                Console.WriteLine("Bomb Effects: empty");
+            }
+            else
+            {
+                Console.WriteLine($"Bomb Effects: {string.Join(", ", bombEffects)}");
+            }
+
+            if (bombCasings.Count == 0)
+            {
+                Console.WriteLine("Bomb Casings: empty");
+            }
+            else
+            {
+                Console.WriteLine($"Bomb Casings: {string.Join(", ", bombCasings)}");
+            }
+
+            foreach (var bomb in bombsMade)
+            {
+                Console.WriteLine($"{bomb.Key}: {bomb.Value}");
+            }
+        }
+    }
+}
