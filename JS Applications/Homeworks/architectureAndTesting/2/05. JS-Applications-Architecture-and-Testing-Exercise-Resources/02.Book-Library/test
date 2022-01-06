@@ -1,0 +1,98 @@
+const { chromium } = require('playwright-chromium');
+const {expect} = require('chai')
+
+
+let browser, page; // Declare reusable variables
+let clientUrl = 'http://127.0.0.1:5501'
+
+function fakeResponse(data) {
+    return {
+        status: 200,
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data),
+    }
+}
+
+let testGetBookData = {
+    1: {
+        title : 'Posems',
+        author: 'Bibi'
+    },
+    2: {
+        title: 'New Poems',
+        author: 'Bibi'
+    }
+};
+let testPostBookData = {
+    3 : {
+        title : 'Fall Poems',
+        author: 'Anonymous'
+    }
+}
+let testEditBookData = {
+    4 : {
+        title : 'Edit',
+        author: 'Edit Book'
+    }
+}
+let testNewEditBookData = {
+    4 : {
+        title : 'New Edit',
+        author: 'New Book'
+    }
+}
+
+describe('E2E tests', function () {
+    before(async () => { 
+        // debug only
+        // browser = await chromium.launch( { headless: false, slowMo: 5000}); 
+    //     // browser = await chromium.launch(); 
+    });
+    after(async () => { await browser.close(); });
+    beforeEach(async () => { page = await browser.newPage(); });
+    afterEach(async () => { await page.close(); });
+
+    describe('should load books when click load all books button', () => {
+        it('should call server', async () => {
+            await page.route('**/jsonstore/collections/books', route => {
+                route.fulfill(fakeResponse(testGetBookData))
+            });
+
+            await page.goto(clientUrl);
+
+
+            const [response] = await Promise.all([
+                page.waitForResponse('**/jsonstore/collections/books'),
+                page.click('#loadBooks')
+            ]);
+            let result = await response.json();
+            expect(result).to.eql(testGetBookData);
+        });
+    });
+
+    describe('add books when fill all fields in form and submit', () => {
+        let requestData = undefined;
+        it('should call server', async () => {
+            await page.route('**/jsonstore/collections/books', (route, request) => {
+                if (request.method().toLowerCase() == "post"){
+                    requestData = request.postData()
+                    route.fulfill(fakeResponse(testPostBookData))
+                }
+            });
+
+            await page.goto(clientUrl);
+            await page.fill('#createForm >> input[name="title"]', "Fall Poems"),
+            await page.fill('#createForm >> input[name="author"]', "Anonymous")
+
+            const [response] = await Promise.all([
+                page.waitForResponse('**/jsonstore/collections/books'),
+                page.click('#createForm >> text="Submit"')
+            ]);
+            let result = await response.json();
+            expect(result).to.eql(testPostBookData);
+        });
+    });
+});
