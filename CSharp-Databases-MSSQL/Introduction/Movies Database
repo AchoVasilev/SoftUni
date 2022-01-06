@@ -1,0 +1,65 @@
+CREATE DATABASE Movies
+
+USE Movies
+
+CREATE TABLE Directors(
+	Id INT PRIMARY KEY,
+	DirectorName NVARCHAR(50) NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Directors(Id, DirectorName, Notes)
+	VALUES
+			(1, 'Ivan', NULL),
+			(2, 'Penka', 'not creative enough'),
+			(3, 'Genadi', 'very creative'),
+			(4, 'Ivanichka', 'needs to work out a bit'),
+			(5, 'Georgi', 'very good director')
+
+CREATE TABLE Genres(
+	Id INT PRIMARY KEY,
+	GenreName NVARCHAR(50) NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Genres(Id, GenreName, Notes)
+	VALUES
+			(1, 'Action', NULL),
+			(2, 'Comedy', NULL),
+			(3, 'Horror', 'not for underage'),
+			(4, 'Romantic', NULL),
+			(5, 'History', NULL)
+
+CREATE TABLE Categories(
+	Id INT PRIMARY KEY,
+	CategoryName NVARCHAR(50) NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Categories(Id, CategoryName, Notes)
+	VALUES
+			(1, 'Action', NULL),
+			(2, 'Comedy', NULL),
+			(3, 'Horror', 'not for underage'),
+			(4, 'Romantic', NULL),
+			(5, 'History', NULL)
+
+CREATE TABLE Movies(
+	Id INT PRIMARY KEY,
+	Title NVARCHAR(100) NOT NULL,
+	DirectorId INT FOREIGN KEY REFERENCES Directors(Id) NOT NULL,
+	CopyrightYear SMALLINT NOT NULL,
+	[Length] FLOAT(2),
+	GenreId INT FOREIGN KEY REFERENCES Genres(Id) NOT NULL,
+	CategoryId INT FOREIGN KEY REFERENCES Categories(Id) NOT NULL,
+	Rating NVARCHAR(50),
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Movies(Id, Title, DirectorId, CopyrightYear, [Length], GenreId, CategoryId, Rating, Notes)
+	VALUES
+			(1, 'Woopy', 2, 2004, NULL, 1, 3, 'good', NULL),
+			(2, 'Wee', 3, 2001, NULL, 2, 1, 'bad', NULL),
+			(3, 'Lolo', 4, 2021, NULL, 4, 2, 'excellent', NULL),
+			(4, 'Pinko', 1, 2015, 1.53, 3, 4, 'horrible', NULL),
+			(5, 'Wooky', 5, 2018, NULL, 5, 5, 'lame', NULL)

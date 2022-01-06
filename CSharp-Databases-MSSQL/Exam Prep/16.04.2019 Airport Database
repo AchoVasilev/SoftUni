@@ -1,0 +1,205 @@
+--Create DB
+CREATE DATABASE Airport
+
+USE Airport
+
+GO
+
+--Create tables
+CREATE TABLE Planes
+(
+	Id INT PRIMARY KEY IDENTITY,
+	[Name] NVARCHAR(30) NOT NULL,
+	Seats INT NOT NULL,
+	[Range] INT NOT NULL
+)
+
+CREATE TABLE Flights
+(
+	Id INT PRIMARY KEY IDENTITY,
+	DepartureTime DATETIME,
+	ArrivalTime DATETIME,
+	Origin NVARCHAR(50) NOT NULL,
+	Destination NVARCHAR(50) NOT NULL,
+	PlaneId INT FOREIGN KEY REFERENCES Planes(Id)
+)
+
+CREATE TABLE Passengers
+(
+	Id INT PRIMARY KEY IDENTITY,
+	FirstName NVARCHAR(30) NOT NULL,
+	LastName NVARCHAR(30) NOT NULL,
+	Age INT NOT NULL,
+	[Address] NVARCHAR(30) NOT NULL,
+	PassportId CHAR(11) NOT NULL
+)
+
+CREATE TABLE LuggageTypes
+(
+	Id INT PRIMARY KEY IDENTITY,
+	[Type] NVARCHAR(30) NOT NULL
+)
+
+CREATE TABLE Luggages
+(
+	Id INT PRIMARY KEY IDENTITY,
+	LuggageTypeId INT FOREIGN KEY REFERENCES LuggageTypes(Id) NOT NULL,
+	PassengerId INT FOREIGN KEY REFERENCES Passengers(Id) NOT NULL
+)
+
+CREATE TABLE Tickets
+(
+	Id INT PRIMARY KEY IDENTITY,
+	PassengerId INT FOREIGN KEY REFERENCES Passengers(Id) NOT NULL,
+	FlightId INT FOREIGN KEY REFERENCES Flights(Id) NOT NULL,
+	LuggageId INT FOREIGN KEY REFERENCES Luggages(Id) NOT NULL,
+	Price DECIMAL(18,2) NOT NULL
+)
+
+--INSERT VALUES IN TABLES
+INSERT INTO Planes([Name], Seats, [Range])
+	VALUES
+			('Airbus 336', 112, 5132),
+			('Airbus 330', 432, 5325),
+			('Boeing 369', 231,	2355),
+			('Stelt 297', 254, 2143),
+			('Boeing 338', 165,	5111),
+			('Airbus 558', 387,	1342),
+			('Boeing 128', 345,	5541)
+			
+INSERT INTO LuggageTypes([Type])
+	VALUES
+			('Crossbody Bag'),
+			('School Backpack'),
+			('Shoulder Bag')
+
+--UPDATE
+UPDATE Tickets
+SET Price += Price * 0.13
+WHERE FlightId IN (
+					SELECT Id FROM Flights
+					WHERE Destination = 'Carlsbad'
+				  )
+
+--DELETE
+DELETE FROM Tickets
+WHERE FlightId IN (
+					SELECT Id FROM Flights
+					WHERE Destination = 'Ayn Halagim'
+				  )
+
+DELETE FROM Flights
+WHERE Destination = 'Ayn Halagim'
+
+--Select all of the planes, which name contains "tr". Order them by id (ascending), name (ascending), seats (ascending) and range (ascending).
+SELECT * FROM Planes
+WHERE [Name] LIKE '%tr%'
+ORDER BY Id ASC, [Name] ASC, Seats ASC, [Range] ASC
+
+--Select the total profit for each flight from database. Order them by total price (descending), flight id (ascending).
+
+SELECT t.FlightId AS [FlightId], SUM(t.Price) AS [Price] FROM Flights AS f
+JOIN Tickets AS t
+ON f.Id = t.FlightId
+GROUP BY t.FlightId
+ORDER BY [Price] DESC, t.FlightId ASC
+
+--Select the full name of the passengers with their trips (origin - destination).
+--Order them by full name (ascending), origin (ascending) and destination (ascending).
+
+SELECT FirstName + ' ' + LastName AS [Full Name], f.Origin, f.Destination FROM Passengers AS p
+JOIN Tickets AS t
+ON p.Id = t.PassengerId
+JOIN Flights AS f
+ON t.FlightId = f.Id
+ORDER BY [Full Name] ASC, Origin ASC, Destination ASC
+
+--Select all people who don't have tickets. Select their first name, last name and age .Order them by age (desc), first name (asc) and last name (ascending).
+
+SELECT p.FirstName AS [First Name], p.LastName AS [Last Name], p.Age FROM Passengers AS p
+LEFT JOIN Tickets AS t
+ON p.Id = t.PassengerId
+WHERE t.PassengerId IS NULL
+ORDER BY Age DESC, FirstName ASC, LastName ASC
+
+--Select all passengers who have trips. Select their full name (first name – last name), 
+--plane name, trip (in format {origin} - {destination}) and luggage type. 
+--Order the results by full name (ascending), name (ascending), origin (ascending), destination (ascending) and luggage type (ascending).
+
+SELECT p.FirstName + ' ' + p.LastName AS [Full Name], 
+	   pl.[Name] AS [Plane Name], 
+	   f.Origin + ' - ' + f.Destination AS [Trip], 
+	   lt.[Type] AS [Luggage Type]
+FROM Passengers AS p
+	INNER JOIN Tickets AS t
+	ON p.Id = t.PassengerId
+	INNER JOIN Luggages AS l
+	ON t.LuggageId  = l.Id
+	INNER JOIN LuggageTypes AS lt
+	ON l.LuggageTypeId = lt.Id
+	INNER JOIN Flights AS f
+	ON t.FlightId = f.Id
+	INNER JOIN Planes AS pl
+	ON f.PlaneId = pl.Id
+ORDER BY [Full Name] ASC, [Plane Name] ASC, Origin ASC, Destination ASC, [Luggage Type] ASC
+
+--Select all planes with their name, seats count and passengers count. 
+--Order the results by passengers count (descending), plane name (ascending) and seats (ascending) 
+
+SELECT p.[Name], p.Seats, COUNT(pa.Id) AS [Passengers Count] FROM Planes AS p
+LEFT OUTER JOIN Flights AS f
+ON p.Id = f.PlaneId
+LEFT OUTER JOIN Tickets AS t
+ON f.Id = t.FlightId
+LEFT OUTER JOIN Passengers AS pa
+ON t.PassengerId = pa.Id
+GROUP BY p.Name, p.Seats
+ORDER BY [Passengers Count] DESC, p.[Name] ASC, p.Seats ASC
+
+--Vacation
+GO
+
+CREATE FUNCTION udf_CalculateTickets(@origin NVARCHAR(50), @destination NVARCHAR(50), @peopleCount INT)
+RETURNS VARCHAR(70)
+AS
+BEGIN
+	IF (@peopleCount <= 0)
+	BEGIN
+		RETURN 'Invalid people count!'
+	END
+
+	DECLARE @flightId INT = (
+								SELECT TOP(1) Id FROM Flights
+								WHERE Origin = @origin AND Destination = @destination
+							)
+
+	IF(@flightId IS NULL)
+	BEGIN
+		RETURN 'Invalid flight!'
+	END
+
+	DECLARE @pricePerTicket DECIMAL (15,2) = (
+												SELECT TOP(1) Price FROM Tickets 
+												WHERE FlightId = @flightId
+											 )
+
+	DECLARE @totalPrice DECIMAL(24, 2) = @pricePerTicket * @peopleCount
+
+	RETURN CONCAT('Total price ', @totalPrice)
+END
+
+GO
+
+SELECT dbo.udf_CalculateTickets('Kolyshley','Rancabolang', 33)
+
+GO
+
+--Wrong Data
+
+CREATE PROCEDURE usp_CancelFlights
+AS
+BEGIN
+	UPDATE Flights
+	SET DepartureTime = NULL, ArrivalTime = NULL
+	WHERE DATEDIFF(SECOND, ArrivalTime, DepartureTime) < 0
+END

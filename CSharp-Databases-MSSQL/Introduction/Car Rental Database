@@ -1,0 +1,90 @@
+CREATE DATABASE CarRental
+
+USE CarRental
+
+CREATE TABLE Categories(
+	Id INT PRIMARY KEY,
+	CategoryName NVARCHAR(50) NOT NULL,
+	DailyRate INT NOT NULL,
+	WeeklyRate INT,
+	MonthlyRate INT,
+	WeekendRate INT NOT NULL
+)
+
+INSERT INTO Categories(Id, CategoryName, DailyRate, WeeklyRate, MonthlyRate, WeekendRate)
+	VALUES
+			(1, 'Car', 40, 150, 400, 60),
+			(2, 'SUV', 60, 220, 600, 80),
+			(3, 'Heavyduty truck', 80, 310, 500, 120)
+
+CREATE TABLE Cars(
+	Id INT PRIMARY KEY,
+	PlateNumber NVARCHAR(10) NOT NULL,
+	Manufacturer NVARCHAR(50) NOT NULL,
+	Model NVARCHAR(50) NOT NULL,
+	CarYear SMALLINT NOT NULL,
+	CategoryId INT FOREIGN KEY REFERENCES Categories(Id),
+	Doors TINYINT,
+	Condition NVARCHAR(50),
+	Available NVARCHAR(10) NOT NULL
+)
+
+INSERT INTO Cars(Id, PlateNumber, Manufacturer, Model, CarYear, CategoryId, Doors, Condition, Available)
+	VALUES
+			(1, 'EH 1957 BA', 'Volkswagen', 'Passat', 2015, 1, 4, 'Good', 'Yes'),
+			(2, 'EH 1958 BA', 'Audi', 'Q7', 2015, 2, 4, 'Very good', 'No'),
+			(3, 'EH 1959 BA', 'Ford', 'F 150', 2018, 3, 4, 'Excellent', 'No')
+
+CREATE TABLE Employees(
+	Id INT PRIMARY KEY,
+	FirstName NVARCHAR(50) NOT NULL,
+	LastName NVARCHAR(50) NOT NULL,
+	Title NVARCHAR(20) NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Employees(Id, FirstName, LastName, Title, Notes)
+	VALUES
+			(1, 'Ivan', 'Petrov', 'Accountant', NULL),
+			(2, 'Angel', 'Simeonov', 'Sales representitive', 'Excellent communication skills'),
+			(3, 'Петър', 'Иванов', 'Senior advicer', NULL)
+
+CREATE TABLE Customers(
+	Id INT PRIMARY KEY,
+	DriverLicenceNumber INT NOT NULL,
+	FullName NVARCHAR(200) NOT NULL,
+	[Address] NVARCHAR(200) NOT NULL,
+	City NVARCHAR(100) NOT NULL,
+	ZIPCode SMALLINT,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Customers(Id, DriverLicenceNumber, FullName, [Address], City, ZIPCode, Notes)
+	VALUES
+			(1, 642538987, 'Ivan Petrov Ivanov', 'Teteven 6 Str.', 'Pleven', 5800, NULL),
+			(2, 642538237, 'Genadi Simeonov Petrov', 'Stoletov 12 Str.', 'Pleven', 5800, NULL),
+			(3, 642538157, 'Stamat Angelov Penev', 'Lukovit 2 Str.', 'Pleven', 5800, NULL)
+
+CREATE TABLE RentalOrders(
+	Id INT PRIMARY KEY,
+	EmployeeId INT FOREIGN KEY REFERENCES Employees(Id) NOT NULL,
+	CustomerId INT FOREIGN KEY REFERENCES Customers(Id) NOT NULL,
+	CarId INT FOREIGN KEY REFERENCES Cars(Id) NOT NULL,
+	TankLevel NVARCHAR(50),
+	KilometrageStart INT NOT NULL,
+	KilometrageEnd INT NOT NULL,
+	TotalKilometrage INT NOT NULL,
+	StartDate DATE NOT NULL,
+	EndDate DATE NOT NULL,
+	TotalDays SMALLINT NOT NULL,
+	RateApplied NVARCHAR(50) NOT NULL,
+	TaxRate DECIMAL,
+	OrderStatus NVARCHAR(50),
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO RentalOrders(Id, EmployeeId, CustomerId, CarId, TankLevel, KilometrageStart, KilometrageEnd, TotalKilometrage, StartDate, EndDate, TotalDays, RateApplied, TaxRate, OrderStatus, Notes)
+	VALUES
+			(1, 2, 3, 1, 'Full', 123561, 123600, 39, '12/10/2021', '12/12/2021', 2, 'WeekendRate', 10, 'Confirmed', NULL),
+			(2, 1, 2, 3, 'Half', 150000, 150500, 500, '11/12/2021', '11/20/2021', 8, 'WeeklyRate', 10, 'Confirmed', NULL),
+			(3, 3, 1, 2, 'Near empty', 180000, 180900, 900, '11/10/2021', '12/10/2021', 30, 'MonthlyRate', 10, 'Confirmed', NULL)

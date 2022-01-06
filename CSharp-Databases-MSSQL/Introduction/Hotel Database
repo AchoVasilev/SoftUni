@@ -1,0 +1,118 @@
+CREATE DATABASE Hotel
+
+USE Hotel
+
+CREATE TABLE Employees(
+	Id INT PRIMARY KEY,
+	FirstName NVARCHAR(50) NOT NULL,
+	LastName NVARCHAR(50) NOT NULL,
+	Title NVARCHAR(50) NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Employees(Id, FirstName, LastName, Title, Notes)
+VALUES
+		(1, 'Ivan', 'Simeonov', 'cleaner', NULL),
+		(2, 'Petar', 'Petrov', 'receptionist', NULL),
+		(3, 'Gosho', 'Georgiev', 'security', NULL)
+
+CREATE TABLE Customers(
+	AccountNumber INT PRIMARY KEY,
+	FirstName NVARCHAR(50) NOT NULL,
+	LastName NVARCHAR(50) NOT NULL,
+	PhoneNumber INT,
+	EmergencyName NVARCHAR(50) NOT NULL,
+	EmergencyPhone INT NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Customers(AccountNumber, FirstName, LastName, PhoneNumber, EmergencyName, EmergencyPhone, Notes)
+VALUES
+		(1520, 'Simeon', 'Ivanov', 0898789263, 'Simo', 0898789263, NULL),
+		(1624, 'Genadi', 'Genchev', 0878263895, 'Geno', 0878263895, NULL),
+		(1530, 'Gonzo', 'Goshev', NULL, 'Gonzo', 0988856231, NULL)
+
+CREATE TABLE RoomStatus(
+	RoomStatus NVARCHAR(50) PRIMARY KEY,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO RoomStatus(RoomStatus, Notes)
+VALUES
+		('Ready', NULL),
+		('To be cleaned', NULL),
+		('Cleaning', NULL)
+
+CREATE TABLE RoomTypes(
+	RoomType NVARCHAR(50) PRIMARY KEY,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO RoomTypes(RoomType, Notes)
+VALUES
+		('apartment', NULL),
+		('small', NULL),
+		('luxurious', NULL)
+
+CREATE TABLE BedTypes(
+	BedType NVARCHAR(50) PRIMARY KEY,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO BedTypes(BedType, Notes)
+VALUES
+		('single', NULL),
+		('double', NULL),
+		('kingsize', NULL)
+
+CREATE TABLE Rooms(
+	RoomNumber INT PRIMARY KEY,
+	RoomType NVARCHAR(50) FOREIGN KEY REFERENCES RoomTypes(RoomType) NOT NULL,
+	BedType NVARCHAR(50) FOREIGN KEY REFERENCES BedTypes(BedType) NOT NULL,
+	Rate SMALLINT NOT NULL,
+	RoomStatus NVARCHAR(50) FOREIGN KEY REFERENCES RoomStatus(RoomStatus) NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Rooms(RoomNumber, RoomType, BedType, Rate, RoomStatus, Notes)
+VALUES
+		(10, 'small', 'single', 40, 'To be cleaned', NULL),
+		(20, 'apartment', 'double', 60, 'Cleaning', NULL),
+		(30, 'luxurious', 'kingsize', 100, 'Ready', NULL)
+
+CREATE TABLE Payments(
+	Id INT PRIMARY KEY,
+	EmployeeId INT FOREIGN KEY REFERENCES Employees(Id) NOT NULL,
+	PaymentDate DATE NOT NULL,
+	AccountNumber INT FOREIGN KEY REFERENCES Customers(AccountNumber) NOT NULL,
+	FirstDateOccupied DATE NOT NULL,
+	LastDateOccupied DATE NOT NULL,
+	TotalDays SMALLINT NOT NULL,
+	AmountCharged DECIMAL NOT NULL,
+	TaxRate SMALLINT NOT NULL,
+	PaymentTotal DECIMAL(15, 2) NOT NULL,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Payments(Id, EmployeeId, PaymentDate, AccountNumber, FirstDateOccupied, LastDateOccupied, TotalDays, AmountCharged, TaxRate, PaymentTotal, Notes)
+VALUES
+		(1, 1, '07/12/2021', 1530, '07/18/2021', '07/25/2021', 7, 320, 10, 350, NULL),
+		(2, 2, '07/12/2021', 1520, '07/18/2021', '07/25/2021', 7, 320, 10, 350, NULL),
+		(3, 3, '07/12/2021', 1624, '07/18/2021', '07/25/2021', 7, 320, 10, 350, NULL)
+
+CREATE TABLE Occupancies(
+	Id INT PRIMARY KEY,
+	EmployeeId INT FOREIGN KEY REFERENCES Employees(Id),
+	DateOccupied DATE,
+	AccountNumber INT FOREIGN KEY REFERENCES Customers(AccountNumber),
+	RoomNumber INT FOREIGN KEY REFERENCES Rooms(RoomNumber),
+	RateApplied NVARCHAR(50),
+	PhoneCharge SMALLINT,
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO Occupancies(Id, EmployeeId, DateOccupied, AccountNumber, RoomNumber, RateApplied, PhoneCharge, Notes)
+VALUES
+		(1, 1, '07/18/2021', 1530, 10, 'weekly', 1, NULL),
+		(2, 2, '07/18/2021', 1520, 20, 'weekly', 1, NULL),
+		(3, 3, '07/18/2021', 1624, 30, 'weekly', 1, NULL)

@@ -1,0 +1,65 @@
+USE Gringotts
+
+SELECT COUNT(*) AS [Count] FROM WizzardDeposits
+
+SELECT MAX(MagicWandSize) AS [LongestMagicWand] FROM WizzardDeposits
+
+SELECT DepositGroup, MAX(MagicWandSize) AS [LongestMagicWand] FROM WizzardDeposits
+GROUP BY DepositGroup
+
+SELECT TOP(2) DepositGroup FROM	(SELECT DepositGroup, AVG(MagicWandSize) AS [AverageWandSize] FROM WizzardDeposits
+GROUP BY DepositGroup) AS [AverageWandSizeQuery]
+ORDER BY [AverageWandSize]
+
+SELECT DepositGroup, SUM(DepositAmount) AS [TotalSum] FROM WizzardDeposits
+GROUP BY DepositGroup
+
+SELECT DepositGroup, SUM(DepositAmount) AS [TotalSum] FROM WizzardDeposits
+WHERE MagicWandCreator = 'Ollivander family'
+GROUP BY DepositGroup
+
+SELECT DepositGroup, SUM(DepositAmount) AS [TotalSum] FROM WizzardDeposits
+WHERE MagicWandCreator = 'Ollivander family'
+GROUP BY DepositGroup
+HAVING SUM(DepositAmount) < 150000
+ORDER BY [TotalSum] DESC
+
+SELECT DepositGroup, MagicWandCreator, [MinDepositCharge] FROM (SELECT DepositGroup, MagicWandCreator, MIN(DepositCharge) AS [MinDepositCharge] FROM WizzardDeposits
+GROUP BY MagicWandCreator, DepositGroup) AS [AverageDepositChargeQuery]
+ORDER BY MagicWandCreator, DepositGroup
+
+SELECT [AgeGroup], COUNT(*) AS [WizardsCount] 
+		FROM (SELECT 
+		CASE
+			WHEN Age >= 0 AND Age <= 10 THEN '[0-10]'
+			WHEN Age >= 11 AND Age <= 20 THEN '[11-20]'
+			WHEN Age >= 21 AND Age <= 30 THEN '[21-30]'
+			WHEN Age >= 31 AND Age <= 40 THEN '[31-40]'
+			WHEN Age >= 41 AND Age <= 50 THEN '[41-50]'
+			WHEN Age >= 51 AND Age <= 60 THEN '[51-60]'
+			ELSE '[61+]'
+		END AS [AgeGroup],
+		*
+FROM WizzardDeposits) AS [AgeGroupQuery]
+GROUP BY [AgeGroup]
+
+SELECT LEFT(FirstName, 1) AS [FirstLetter] FROM WizzardDeposits
+WHERE DepositGroup = 'Troll Chest'
+GROUP BY LEFT(FirstName, 1)
+ORDER BY [FirstLetter]
+
+SELECT DepositGroup, IsDepositExpired, [AverageInterest] FROM (SELECT DepositGroup, IsDepositExpired, AVG(DepositInterest) AS [AverageInterest] 
+FROM WizzardDeposits
+WHERE DepositStartDate > '01/01/1985'
+GROUP BY DepositGroup, IsDepositExpired) AS [AverageDepositInterestQuery]
+ORDER BY DepositGroup DESC, IsDepositExpired ASC
+
+SELECT SUM([Difference]) AS [SumDifference] 
+				FROM (
+				SELECT FirstName AS [Host Wizard], DepositAmount AS [Host Wizard Deposit],
+				LEAD(FirstName) OVER(ORDER BY Id ASC) AS [Guest Wizard],
+				LEAD(DepositAmount) OVER(ORDER BY Id ASC) AS [Guest Wizard Deposit],
+				DepositAmount - LEAD(DepositAmount) OVER(ORDER BY Id ASC) AS [Difference]
+				FROM WizzardDeposits
+			   ) AS [WizardQuery]
+WHERE [Guest Wizard] IS NOT NULL
