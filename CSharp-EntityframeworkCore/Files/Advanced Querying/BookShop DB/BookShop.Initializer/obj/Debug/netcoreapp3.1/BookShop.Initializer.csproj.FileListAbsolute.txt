@@ -1,0 +1,14 @@
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Initializer.deps.json
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Initializer.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Initializer.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Data.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Models.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Data.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Models.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.csprojAssemblyReference.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.csproj.CopyComplete
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\06. Advanced-Querying-BookShop\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.pdb

@@ -1,0 +1,9 @@
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\bin\Debug\netcoreapp2.1\FastFood.Models.deps.json
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\bin\Debug\netcoreapp2.1\FastFood.Models.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\bin\Debug\netcoreapp2.1\FastFood.Models.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.csprojAssemblyReference.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\07. Auto-Mapping-Objects-Project\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.pdb

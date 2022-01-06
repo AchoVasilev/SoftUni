@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<customers>
+  <customer fullName="Hai Everton" bought-cars="1" spent-money="2544.67" />
+  <customer fullName="Daniele Zarate" bought-cars="1" spent-money="2014.83" />
+  <customer fullName="Donnetta Soliz" bought-cars="1" spent-money="1655.57" />
+  <customer fullName="Faustina Burgher" bought-cars="1" spent-money="1544.83" />
+  <customer fullName="Ann Mcenaney" bought-cars="1" spent-money="1284.32" />
+  <customer fullName="Audrea Cardinal" bought-cars="1" spent-money="1223.31" />
+  <customer fullName="Zada Attwood" bought-cars="1" spent-money="1197.55" />
+  <customer fullName="Marcelle Griego" bought-cars="1" spent-money="619.66" />
+  <customer fullName="Lino Subia" bought-cars="1" spent-money="489.20" />
+</customers>

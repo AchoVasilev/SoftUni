@@ -1,0 +1,12 @@
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.deps.json
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.runtimeconfig.json
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.runtimeconfig.dev.json
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\bin\Debug\netcoreapp2.1\ProductShop.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.csprojAssemblyReference.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Files\08. JSON-Processing-Product-Shop-Skeleton\ProductShop\obj\Debug\netcoreapp2.1\ProductShop.genruntimeconfig.cache

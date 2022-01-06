@@ -1,0 +1,12 @@
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\bin\Debug\netcoreapp2.1\BookShop.deps.json
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\bin\Debug\netcoreapp2.1\BookShop.runtimeconfig.json
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\bin\Debug\netcoreapp2.1\BookShop.runtimeconfig.dev.json
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\bin\Debug\netcoreapp2.1\BookShop.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\bin\Debug\netcoreapp2.1\BookShop.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\obj\Debug\netcoreapp2.1\BookShop.csprojAssemblyReference.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\obj\Debug\netcoreapp2.1\BookShop.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\obj\Debug\netcoreapp2.1\BookShop.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\obj\Debug\netcoreapp2.1\BookShop.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\obj\Debug\netcoreapp2.1\BookShop.dll
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\obj\Debug\netcoreapp2.1\BookShop.pdb
+D:\Курс програмиране\CSharp Entity Framework Core\Exams\Exam2\BookShop\BookShop\obj\Debug\netcoreapp2.1\BookShop.genruntimeconfig.cache
