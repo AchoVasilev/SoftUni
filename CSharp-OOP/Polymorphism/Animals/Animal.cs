@@ -1,0 +1,26 @@
+﻿using System.Text;
+
+namespace Animals
+{
+    public abstract class Animal
+    {
+        protected Animal(string name, string favouriteFood)
+        {
+            this.Name = name;
+            this.FavouriteFood = favouriteFood;
+        }
+
+        public string Name { get; private set; }
+
+        public string FavouriteFood { get; private set; }
+
+        public virtual string ExplainSelf()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"I am {this.Name} and my fovourite food is {this.FavouriteFood}");
+
+            return sb.ToString().Trim();
+        }
+    }
+}
