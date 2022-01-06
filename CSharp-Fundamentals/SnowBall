@@ -1,0 +1,36 @@
+using System;
+using System.Numerics;
+
+namespace _11._Snowballs
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            BigInteger numberOfSnowballs = BigInteger .Parse(Console.ReadLine());
+            BigInteger heighestSnowballValue = 0;
+            BigInteger bestSnowballSnow = 0;
+            BigInteger bestSnowballTime = 0;
+            BigInteger bestSnowballQuality = 0;
+
+            for (BigInteger i = 0; i < numberOfSnowballs; i++)
+            {
+                BigInteger snowballSnow = BigInteger.Parse(Console.ReadLine());
+                BigInteger snowballTime = BigInteger.Parse(Console.ReadLine());
+                BigInteger snowballQuality = BigInteger.Parse(Console.ReadLine());
+
+                BigInteger snowballValue = BigInteger.Pow((snowballSnow / snowballTime), (int)snowballQuality);
+
+                if (snowballValue > heighestSnowballValue)
+                {
+                    heighestSnowballValue = snowballValue;
+                    bestSnowballQuality = snowballQuality;
+                    bestSnowballSnow = snowballSnow;
+                    bestSnowballTime = snowballTime;
+                }
+            }
+
+            Console.WriteLine($"{bestSnowballSnow} : {bestSnowballTime} = {heighestSnowballValue} ({bestSnowballQuality})");
+        }
+    }
+}

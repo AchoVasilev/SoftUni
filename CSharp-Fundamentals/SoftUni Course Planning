@@ -1,0 +1,167 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Exercise___10.__SoftUni_Course_Planning
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> lessons = Console.ReadLine().Split(',').ToList();
+
+            for (int i = 0; i < lessons.Count; i++)
+            {
+                lessons[i] = lessons[i].Trim();
+            }
+
+
+            while (true)
+            {
+                string command = Console.ReadLine();
+
+                if (command == "course start")
+                {
+                    break;
+                }
+
+                string[] splittedCommand = command.Split(':');
+
+                switch (splittedCommand[0])
+                {
+                    case "Add":
+                        AddLesson(lessons, splittedCommand);
+                        break;
+                    case "Insert":
+                        InsertLesson(lessons, splittedCommand);
+                        break;
+                    case "Remove":
+                        RemoveLesson(lessons, splittedCommand);
+                        break;
+                    case "Swap":
+                        string firstLesson = splittedCommand[1];
+                        string secondLesson = splittedCommand[2];
+
+                        if (lessons.Contains(firstLesson) && lessons.Contains(secondLesson))
+                        {
+                            SwapLessons(lessons, firstLesson, secondLesson);
+                        }
+                        if (lessons.Contains(firstLesson + "-" + "Exercise") ||
+                                lessons.Contains(secondLesson + "-" + "Exercise"))
+                        {
+                            SwapExercise(lessons, firstLesson, secondLesson);
+                        }
+                        break;
+                    case "Exercise":
+                        string lessonTitle = splittedCommand[1];
+
+                        Exercise(lessons, lessonTitle);
+                        break;
+                }
+            }
+
+            PrintResult(lessons);
+        }
+
+        private static void PrintResult(List<string> lessons)
+        {
+            for (int i = 0; i < lessons.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}.{lessons[i]}");
+            }
+        }
+
+        private static void Exercise(List<string> lessons, string lessonTitle)
+        {
+            if (!lessons.Contains(lessonTitle))
+            {
+                lessons.Add(lessonTitle);
+                lessons.Add(lessonTitle + "-" + "Exercise");
+            }
+            else if (lessons.Contains(lessonTitle) && !lessons.Contains(lessonTitle + "-" + "Exercise"))
+            {
+                int index = lessons.IndexOf(lessonTitle);
+                lessons.Insert(index + 1, lessonTitle + "-" + "Exercise");
+            }
+        }
+
+        static List<string> SwapExercise(List<string> lessons, string firstLesson, string secondLesson)
+        {
+            int firstLessonIndex = lessons.IndexOf(firstLesson);
+            int secondLessonIndex = lessons.IndexOf(secondLesson);
+
+            if (lessons.Contains(firstLesson + "-" + "Exercise"))
+            {
+                lessons.Remove(firstLesson + "-" + "Exercise");
+
+                if (firstLessonIndex == lessons.Count - 1)
+                {
+                    lessons.Add(firstLesson + "-" + "Exercise");
+                }
+                else
+                {
+                    lessons.Insert(firstLessonIndex + 1, firstLesson + "-" + "Exercise");
+                }
+            }
+
+            if (lessons.Contains(secondLesson + "-" + "Exercise"))
+            {
+                lessons.Remove(secondLesson + "-" + "Exercise");
+
+                if (secondLessonIndex == lessons.Count - 1)
+                {
+                    lessons.Add(secondLesson + "-" + "Exercise");
+                }
+                else
+                {
+                    lessons.Insert(secondLessonIndex + 1, secondLesson + "-" + "Exercise");
+                }
+            }
+            return lessons;
+        }
+        private static List<string> SwapLessons(List<string> lessons, string firstLesson, string secondLesson)
+        {
+            int firstLessonIndex = lessons.IndexOf(firstLesson);
+            int secondLessonIndex = lessons.IndexOf(secondLesson);
+
+            lessons[firstLessonIndex] = secondLesson;
+            lessons[secondLessonIndex] = firstLesson;
+
+            return lessons;
+        }
+
+        private static void RemoveLesson(List<string> lessons, string[] splittedCommand)
+        {
+            string lessonTitle = splittedCommand[1];
+
+            if (lessons.Contains(lessonTitle))
+            {
+                lessons.Remove(lessonTitle);
+            }
+            if (lessons.Contains(lessonTitle + "-" + "Exercise"))
+            {
+                lessons.Remove(lessonTitle + "-" + "Exercise");
+            }
+        }
+
+        private static void InsertLesson(List<string> lessons, string[] splittedCommand)
+        {
+            string lessonTitle = splittedCommand[1];
+            int index = int.Parse(splittedCommand[2]);
+
+            if (!lessons.Contains(lessonTitle))
+            {
+                lessons.Insert(index, lessonTitle);
+            }
+        }
+
+        private static void AddLesson(List<string> lessons, string[] splittedCommand)
+        {
+            string lessonTitle = splittedCommand[1];
+            if (!lessons.Contains(lessonTitle))
+            {
+                lessons.Add(lessonTitle);
+            }
+        }
+    }
+}

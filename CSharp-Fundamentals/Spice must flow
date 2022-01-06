@@ -1,0 +1,39 @@
+using System;
+
+namespace Spice_must_flow
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int startingYeald = int.Parse(Console.ReadLine());
+            int daysCount = 0;
+            int spiceStored = 0;
+            while (startingYeald >= 100)
+            {
+                spiceStored += startingYeald;
+                daysCount++;
+                startingYeald -= 10;
+
+                if (spiceStored - 26 < 0)
+                {
+                    spiceStored = 0;
+                }
+                else
+                {
+                spiceStored -= 26;
+                }
+            }
+            if (spiceStored - 26 < 0)
+            {
+                spiceStored = 0;
+            }
+            else
+            {
+                spiceStored -= 26;
+            }
+            Console.WriteLine(daysCount);
+            Console.WriteLine(spiceStored);
+        }
+    }
+}

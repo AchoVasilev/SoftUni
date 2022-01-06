@@ -1,0 +1,35 @@
+using System;
+
+namespace Padawan_equipment
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double money = double.Parse(Console.ReadLine());
+            int students = int.Parse(Console.ReadLine());
+            double pricePerSaber = double.Parse(Console.ReadLine());
+            double pricePerRobe = double.Parse(Console.ReadLine());
+            double pricePerBelt = double.Parse(Console.ReadLine());
+
+            double totalSaberPrice = pricePerSaber * Math.Ceiling(students * 1.1);
+            double totalRobesPrice = pricePerRobe * students;
+            double totalBeltPrice = pricePerBelt * students;
+            int freeBeltsCount = students / 6;
+            double freeBeltsPrice = freeBeltsCount * pricePerBelt;
+            totalBeltPrice -= freeBeltsPrice;
+
+            double totalPrice = totalSaberPrice + totalRobesPrice + totalBeltPrice;
+
+            if (money >= totalPrice)
+            {
+                Console.WriteLine($"The money is enough - it would cost {totalPrice:F2}lv.");
+            }
+            else
+            {
+                double difference = totalPrice - money;
+                Console.WriteLine($"Ivan Cho will need {difference:F2}lv more.");
+            }
+        }
+    }
+}

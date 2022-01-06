@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Dictionary___Nikulden_s_meals
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<string, List<string>> guestList = new Dictionary<string, List<string>>();
+            string input = Console.ReadLine();
+            int count = 0;
+
+            while (input != "Stop")
+            {
+                string[] inputArgs = input.Split("-");
+                string command = inputArgs[0];
+                string name = inputArgs[1];
+                string meal = inputArgs[2];
+
+                switch (command)
+                {
+                    case "Like":
+                        if (!guestList.ContainsKey(name))
+                        {
+                            guestList.Add(name, new List<string>());
+                           
+                        }
+                        if (!guestList[name].Contains(meal))
+                        {
+                            guestList[name].Add(meal);
+                        }
+                        break;
+
+                    case "Unlike":
+
+                        if (!guestList.ContainsKey(name))
+                        {
+                            Console.WriteLine($"{name} is not at the party.");
+                        }
+
+                        else if (guestList[name].Contains(meal))
+                        {
+                            Console.WriteLine($"{name} doesn't like the {meal}.");
+                            guestList[name].Remove(meal);
+                            count++;
+                        }
+
+                        else if (!guestList[name].Contains(meal))
+                        {
+                            Console.WriteLine($"{name} doesn't have the {meal} in his/her collection.");
+                        }
+
+                        break;
+                }
+
+                input = Console.ReadLine();
+            }
+
+            var sortedGuestList = guestList
+                .OrderByDescending(x => x.Value.Count)
+                .ThenBy(x => x.Key)
+                .ToDictionary(x => x.Key, y => y.Value);
+
+            foreach (var kvp in sortedGuestList)
+            {
+                Console.Write($"{kvp.Key}: ");
+                Console.WriteLine(string.Join(", ", kvp.Value));
+            }
+
+            Console.WriteLine($"Unliked meals: {count}");
+        }
+    }
+}

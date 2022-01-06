@@ -1,0 +1,220 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _7._List_Manipulation_Advanced
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            int count = 0;
+
+            while (true)
+            {
+                string command = Console.ReadLine();
+
+                if (command == "end")
+                {
+                    break;
+                }
+
+                string[] tokens = command.Split();
+                switch (tokens[0])
+                {
+                    case "Add":
+                        AddNums(numbers, tokens);
+                        count++;
+                        break;
+                    case "Remove":
+                        RemoveNums(numbers, tokens);
+                        count++;
+                        break;
+                    case "RemoveAt":
+                        RemoveIndex(numbers, tokens);
+                        count++;
+                        break;
+                    case "Insert":
+                        InsertIndexAndNumber(numbers, tokens);
+                        count++;
+                        break;
+                    case "Contains":
+                        ContainsNums(numbers, tokens);
+                        break;
+                    case "PrintEven":
+                        PrintEvenNum(numbers, tokens);
+                        break;
+                    case "PrintOdd":
+                        PrintOddNum(numbers, tokens);
+                        break;
+                    case "GetSum":
+                        SumNumbers(numbers, tokens);
+                        break;
+                    case "Filter":
+                        PrintFilterNumbers(numbers, tokens);
+                        break;
+                }
+            }
+
+            if (count > 0)
+            {
+                Console.WriteLine(string.Join(" ", numbers));
+            }
+        }
+
+        static void InsertIndexAndNumber(List<int> numbers, string[] tokens)
+        {
+            int numbersToInsert = int.Parse(tokens[1]);
+            int indexToInsert = int.Parse(tokens[2]);
+            numbers.Insert(indexToInsert, numbersToInsert);
+        }
+
+        static void RemoveIndex(List<int> numbers, string[] tokens)
+        {
+            int indexToRemove = int.Parse(tokens[1]);
+            numbers.RemoveAt(indexToRemove);
+        }
+
+        static void RemoveNums(List<int> numbers, string[] tokens)
+        {
+            int numberToRemove = int.Parse(tokens[1]);
+            numbers.Remove(numberToRemove);
+        }
+
+        static void AddNums(List<int> numbers, string[] tokens)
+        {
+            int numberToAdd = int.Parse(tokens[1]);
+            numbers.Add(numberToAdd);
+        }
+        static void ContainsNums(List<int> numbers, string[] tokens)
+        {
+            int containedNumber = int.Parse(tokens[1]);
+            numbers.Contains(containedNumber);
+            if (numbers.Contains(containedNumber))
+            {
+                Console.WriteLine("Yes");
+            }
+            else
+            {
+                Console.WriteLine("No such number");
+            }
+        }
+        static void PrintEvenNum(List<int> numbers, string[] tokens)
+        {
+            List<int> evenSum = new List<int>();
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] % 2 == 0)
+                {
+                    evenSum.Add(numbers[i]);
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", evenSum));
+        }
+        static void PrintOddNum(List<int> numbers, string[] tokens)
+        {
+            List<int> oddSum = new List<int>();
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] % 2 == 1)
+                {
+                    oddSum.Add(numbers[i]);
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", oddSum));
+        }
+
+        static void SumNumbers(List<int> numbers, string[] tokens)
+        {
+            int sum = 0;
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                sum += numbers[i];
+            }
+
+            Console.WriteLine(sum);
+        }
+        
+        static void PrintFilterNumbers (List<int> numbers, string[] tokens)
+        {
+            string condition = tokens[1];
+            int num = int.Parse(tokens[2]);
+            List<int> smallerNum = new List<int>();
+            List<int> biggerNum = new List<int>();
+            List<int> equalOrSmallerNum = new List<int>();
+            List<int> equalOrBiggerNum = new List<int>();
+
+            if (condition == "<")
+            {
+                SmallerNum(numbers, num, smallerNum);
+            }
+            else if (condition == ">")
+            {
+                BiggerNum(numbers, num, biggerNum);
+            }
+            else if (condition == "<=")
+            {
+                EqualOrSmallerNum(numbers, num, equalOrSmallerNum);
+            }
+            else if (condition == ">=")
+            {
+                EqualOrBiggerNum(numbers, num, equalOrBiggerNum);
+            }
+        }
+
+        static void SmallerNum(List<int> numbers, int num, List<int> smallerNum)
+        {
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] < num)
+                {
+                    smallerNum.Add(numbers[i]);
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", smallerNum));
+        }
+
+        static void BiggerNum(List<int> numbers, int num, List<int> biggerNum)
+        {
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] > num)
+                {
+                    biggerNum.Add(numbers[i]);
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", biggerNum));
+        }
+
+        static void EqualOrSmallerNum(List<int> numbers, int num, List<int> equalSmallerNum)
+        {
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] <= num)
+                {
+                    equalSmallerNum.Add(numbers[i]);
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", equalSmallerNum));
+        }
+
+        static void EqualOrBiggerNum(List<int> numbers, int num, List<int> equalBiggerNum)
+        {
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] >= num)
+                {
+                    equalBiggerNum.Add(numbers[i]);
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", equalBiggerNum));
+        }
+    }
+}

@@ -1,0 +1,83 @@
+using System;
+using System.Linq;
+
+namespace Exercise___9._Kamino_Factory
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int dnaLength = int.Parse(Console.ReadLine());
+            string command = Console.ReadLine();
+
+            int[] bestSample = new int[dnaLength];
+            int maxCount = 0;
+            int maxIndex = 0;
+            int maxSample = 1;
+            int sampleCount = 0;
+
+            while (true)
+            {
+                if (command == "Clone them!")
+                {
+                    break;
+                }
+                else
+                {
+                    int[] currentSample = command
+                        .Split("!", StringSplitOptions.RemoveEmptyEntries)
+                        .Select(int.Parse)
+                        .ToArray();
+                    sampleCount++;
+                    int bestCurrentCount = 0;
+                    int bestCurrentIndex = 0;
+                    int bestCurrentSum = 0;
+
+                    for (int i = 0; i < currentSample.Length; i++)
+                    {
+                        int currentElement = currentSample[i];
+                        int currentCount = 1;
+
+                        if (currentElement == 0)
+                        {
+                            continue;
+                        }
+
+                        for (int j = i + 1; j < currentSample.Length; j++)
+                        {
+                            if (currentSample[j] == 1)
+                            {
+                                currentCount++;
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+
+                        if (currentCount > bestCurrentCount)
+                        {
+                            bestCurrentCount = currentCount;
+                            bestCurrentIndex = i;
+                            bestCurrentSum = currentSample.Sum();
+                        }
+                    }
+
+                    if (bestCurrentCount > maxCount || (bestCurrentCount == maxCount && maxIndex > bestCurrentIndex) ||
+                        bestSample.Sum() < bestCurrentSum)
+                    {
+                        maxIndex = bestCurrentIndex;
+                        maxCount = bestCurrentCount;
+                        bestSample = currentSample;
+                        maxSample = sampleCount;
+                    }
+
+                    command = Console.ReadLine();
+                }
+            }
+
+            Console.WriteLine($"Best DNA sample {maxSample} with sum: {bestSample.Sum()}.");
+            Console.WriteLine(string.Join(" ", bestSample));
+        }
+    }
+}

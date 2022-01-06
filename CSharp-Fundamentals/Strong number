@@ -1,0 +1,34 @@
+using System;
+
+namespace Strong_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = int.Parse(Console.ReadLine());
+            int temporary = number;
+            int totalFactorialSum = 0;
+            while (temporary > 0)
+            {
+                int factorial = 1;
+                int digit = temporary % 10;
+                temporary /= 10;
+
+                for (int i = 1; i <= digit; i++)
+                {
+                    factorial *= i;
+                }
+                totalFactorialSum += factorial;
+            }
+            if (number == totalFactorialSum)
+            {
+                Console.WriteLine("yes");
+            }
+            else
+            {
+                Console.WriteLine("no");
+            }
+        }
+    }
+}

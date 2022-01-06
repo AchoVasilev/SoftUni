@@ -1,0 +1,65 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace School_Library
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> books = Console.ReadLine().Split("&").ToList();
+
+            while (true)
+            {
+                string command = Console.ReadLine();
+
+                if (command == "Done")
+                {
+                    break;
+                }
+
+                string[] splittedCommand = command.Split(" | ").ToArray();
+
+                switch (splittedCommand[0])
+                {
+                    case "Add Book":
+                        if (!books.Contains(splittedCommand[1]))
+                        {
+                            books.Insert(0, splittedCommand[1]);
+                        }
+                        break;
+                    case "Take Book":
+                        if (books.Contains(splittedCommand[1]))
+                        {
+                            books.Remove(splittedCommand[1]);
+                        }
+                        break;
+                    case "Swap Books":
+                        if (books.Contains(splittedCommand[1]) && books.Contains(splittedCommand[2]))
+                        {
+                            int indexOfFirstBook = books.IndexOf(splittedCommand[1]);
+                            int indexOfSecondBook = books.IndexOf(splittedCommand[2]);
+                            string temp = books[indexOfFirstBook];
+
+                            books[indexOfFirstBook] = splittedCommand[2];
+                            books[indexOfSecondBook] = temp;
+                        }
+                        break;
+                    case "Insert Book":
+                        books.Add(splittedCommand[1]);
+                        break;
+                    case "Check Book":
+
+                        if (books.ElementAtOrDefault(int.Parse(splittedCommand[1])) != null)
+                        {
+                            string searchedBook = books.ElementAt(int.Parse(splittedCommand[1]));
+                            Console.WriteLine(searchedBook);
+                        }
+                        break;
+                }
+            }
+            Console.WriteLine(string.Join(", ", books));
+        }
+    }
+}

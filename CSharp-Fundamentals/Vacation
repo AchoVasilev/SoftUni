@@ -1,0 +1,77 @@
+using System;
+
+namespace Vacation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numberOfPeople = int.Parse(Console.ReadLine());
+            string typeOfPeople = Console.ReadLine();
+            string dayOfWeek = Console.ReadLine();
+            decimal price = 0;
+
+            switch (typeOfPeople)
+            {
+                case "Students":
+                    switch (dayOfWeek)
+                    {
+                        case "Friday":
+                            price = 8.45m;
+                            break;
+                        case "Saturday":
+                            price = 9.80m;
+                            break;
+                        case "Sunday":
+                            price = 10.46m;
+                            break;
+                    }
+                    break;
+
+                case "Business":
+                    switch (dayOfWeek)
+                    {
+                        case "Friday":
+                            price = 10.90m;
+                            break;
+                        case "Saturday":
+                            price = 15.60m;
+                            break;
+                        case "Sunday":
+                            price = 16m;
+                            break;
+                    }
+                    break;
+                case "Regular":
+                    switch (dayOfWeek)
+                    {
+                        case "Friday":
+                            price = 15m;
+                            break;
+                        case "Saturday":
+                            price = 20m;
+                            break;
+                        case "Sunday":
+                            price = 22.50m;
+                            break;
+                    }
+                    break;
+            }
+            decimal totalPrice = price * numberOfPeople;
+
+            if (typeOfPeople == "Students" && numberOfPeople >= 30)
+            {
+                totalPrice *= 0.85m;
+            }
+            else if (typeOfPeople == "Business" && numberOfPeople >= 100)
+            {
+                totalPrice -= price * 10;
+            }
+            else if (typeOfPeople == "Regular" && numberOfPeople >= 10 && numberOfPeople <= 20)
+            {
+                totalPrice *= 0.95m;
+            }
+            Console.WriteLine($"Total price: {totalPrice:F2}");
+        }
+    }
+}
