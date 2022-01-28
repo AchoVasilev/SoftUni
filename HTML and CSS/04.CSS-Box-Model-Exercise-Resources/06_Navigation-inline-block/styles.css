@@ -1,0 +1,22 @@
+html{
+    font-family: Helvetica, sans-serif;
+    padding: 50px 100px;
+}
+
+header h1{
+    display: inline-block;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+li a{
+    color: #21A23F;
+}
