@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\bin\Debug\netcoreapp3.1\03.ReversedList.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\bin\Debug\netcoreapp3.1\03.ReversedList.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\bin\Debug\netcoreapp3.1\03.ReversedList.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\obj\Debug\netcoreapp3.1\03.ReversedList.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\obj\Debug\netcoreapp3.1\03.ReversedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\obj\Debug\netcoreapp3.1\03.ReversedList.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\obj\Debug\netcoreapp3.1\03.ReversedList.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\obj\Debug\netcoreapp3.1\03.ReversedList.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\obj\Debug\netcoreapp3.1\03.ReversedList.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\03. Linear-Data-Structures-Exercise-Skeleton\03.ReversedList\obj\Debug\netcoreapp3.1\03.ReversedList.pdb
