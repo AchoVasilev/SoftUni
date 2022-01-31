@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\bin\Debug\netcoreapp3.1\Problem03.Queue.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\bin\Debug\netcoreapp3.1\Problem03.Queue.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\bin\Debug\netcoreapp3.1\Problem03.Queue.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\obj\Debug\netcoreapp3.1\Problem03.Queue.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\obj\Debug\netcoreapp3.1\Problem03.Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\obj\Debug\netcoreapp3.1\Problem03.Queue.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\obj\Debug\netcoreapp3.1\Problem03.Queue.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\obj\Debug\netcoreapp3.1\Problem03.Queue.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\obj\Debug\netcoreapp3.1\Problem03.Queue.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\02. Data-Structures-Linear-Data-Structures-Lab-Skeleton\Problem03.Queue\obj\Debug\netcoreapp3.1\Problem03.Queue.pdb
