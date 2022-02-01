@@ -1,0 +1,14 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\bin\Debug\netcoreapp3.1\Tree.exe
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\bin\Debug\netcoreapp3.1\Tree.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\bin\Debug\netcoreapp3.1\Tree.runtimeconfig.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\bin\Debug\netcoreapp3.1\Tree.runtimeconfig.dev.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\bin\Debug\netcoreapp3.1\Tree.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\bin\Debug\netcoreapp3.1\Tree.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\04.Trees-Representation-and-Traversal-(BFS-DFS)-Skeleton\Tree\obj\Debug\netcoreapp3.1\Tree.genruntimeconfig.cache
