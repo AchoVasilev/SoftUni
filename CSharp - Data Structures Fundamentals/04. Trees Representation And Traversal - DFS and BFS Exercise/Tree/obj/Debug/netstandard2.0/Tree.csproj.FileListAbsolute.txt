@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\bin\Debug\netstandard2.0\Tree.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\bin\Debug\netstandard2.0\Tree.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\bin\Debug\netstandard2.0\Tree.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\obj\Debug\netstandard2.0\Tree.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\obj\Debug\netstandard2.0\Tree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\obj\Debug\netstandard2.0\Tree.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\obj\Debug\netstandard2.0\Tree.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\obj\Debug\netstandard2.0\Tree.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\obj\Debug\netstandard2.0\Tree.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\05.Trees-Representation-and-Traversal-(BFS-DFS)-Exercise-Skeleton\Tree\obj\Debug\netstandard2.0\Tree.pdb
