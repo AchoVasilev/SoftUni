@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\bin\Debug\netstandard2.0\03.PriorityQueue.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\bin\Debug\netstandard2.0\03.PriorityQueue.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\bin\Debug\netstandard2.0\03.PriorityQueue.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\obj\Debug\netstandard2.0\03.PriorityQueue.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\obj\Debug\netstandard2.0\03.PriorityQueue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\obj\Debug\netstandard2.0\03.PriorityQueue.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\obj\Debug\netstandard2.0\03.PriorityQueue.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\obj\Debug\netstandard2.0\03.PriorityQueue.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\obj\Debug\netstandard2.0\03.PriorityQueue.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\03.PriorityQueue\obj\Debug\netstandard2.0\03.PriorityQueue.pdb

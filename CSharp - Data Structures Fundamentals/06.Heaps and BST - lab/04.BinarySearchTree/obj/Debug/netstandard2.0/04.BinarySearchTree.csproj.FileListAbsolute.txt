@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\bin\Debug\netstandard2.0\04.BinarySearchTree.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\bin\Debug\netstandard2.0\04.BinarySearchTree.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\bin\Debug\netstandard2.0\04.BinarySearchTree.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\obj\Debug\netstandard2.0\04.BinarySearchTree.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\obj\Debug\netstandard2.0\04.BinarySearchTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\obj\Debug\netstandard2.0\04.BinarySearchTree.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\obj\Debug\netstandard2.0\04.BinarySearchTree.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\obj\Debug\netstandard2.0\04.BinarySearchTree.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\obj\Debug\netstandard2.0\04.BinarySearchTree.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\06.Heaps-BST-Lab-Skeleton\04.BinarySearchTree\obj\Debug\netstandard2.0\04.BinarySearchTree.pdb

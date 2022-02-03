@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "P5gQ448VgsHLpvejVn7w5eFYBP1k3xBt1Tgj8teFKCeNp5RrTZlsGmClbLfRxTYginlp3wc5dzlKgJpnQ0zXWg==",
+  "success": true,
+  "projectFilePath": "D:\\Курс програмиране\\CSharp - Data Structures Fundamentals\\06.Heaps-BST-Lab-Skeleton\\04.BinarySearchTree\\04.BinarySearchTree.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\defie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\defie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

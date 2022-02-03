@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "McRqtcN4lJ8NOm1QXtr6QjeQiL/2HLqKMP2W0V2yElVJSGy+DJr0HuVTItJ34rs3E9tzJdw15kFr1n8dU5mEgA==",
+  "success": true,
+  "projectFilePath": "D:\\Курс програмиране\\CSharp - Data Structures Fundamentals\\06.Heaps-BST-Lab-Skeleton\\03.PriorityQueue\\03.PriorityQueue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\defie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\defie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
