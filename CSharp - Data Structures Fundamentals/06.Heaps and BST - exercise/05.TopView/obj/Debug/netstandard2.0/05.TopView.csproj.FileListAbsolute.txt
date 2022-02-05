@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\bin\Debug\netstandard2.0\05.TopView.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\bin\Debug\netstandard2.0\05.TopView.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\bin\Debug\netstandard2.0\05.TopView.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\obj\Debug\netstandard2.0\05.TopView.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\obj\Debug\netstandard2.0\05.TopView.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\obj\Debug\netstandard2.0\05.TopView.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\obj\Debug\netstandard2.0\05.TopView.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\obj\Debug\netstandard2.0\05.TopView.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\obj\Debug\netstandard2.0\05.TopView.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\05.TopView\obj\Debug\netstandard2.0\05.TopView.csproj.AssemblyReference.cache

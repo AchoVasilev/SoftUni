@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\bin\Debug\netstandard2.0\01.BSTOperations.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\bin\Debug\netstandard2.0\01.BSTOperations.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\bin\Debug\netstandard2.0\01.BSTOperations.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\obj\Debug\netstandard2.0\01.BSTOperations.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\obj\Debug\netstandard2.0\01.BSTOperations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\obj\Debug\netstandard2.0\01.BSTOperations.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\obj\Debug\netstandard2.0\01.BSTOperations.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\obj\Debug\netstandard2.0\01.BSTOperations.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\obj\Debug\netstandard2.0\01.BSTOperations.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\01.BSTOperations\obj\Debug\netstandard2.0\01.BSTOperations.pdb

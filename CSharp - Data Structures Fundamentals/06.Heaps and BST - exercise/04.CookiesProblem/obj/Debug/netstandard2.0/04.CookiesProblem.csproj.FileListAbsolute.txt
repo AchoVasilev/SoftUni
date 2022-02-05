@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\bin\Debug\netstandard2.0\04.CookiesProblem.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\bin\Debug\netstandard2.0\04.CookiesProblem.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\bin\Debug\netstandard2.0\04.CookiesProblem.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\obj\Debug\netstandard2.0\04.CookiesProblem.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\obj\Debug\netstandard2.0\04.CookiesProblem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\obj\Debug\netstandard2.0\04.CookiesProblem.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\obj\Debug\netstandard2.0\04.CookiesProblem.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\obj\Debug\netstandard2.0\04.CookiesProblem.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\obj\Debug\netstandard2.0\04.CookiesProblem.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\04.CookiesProblem\obj\Debug\netstandard2.0\04.CookiesProblem.pdb

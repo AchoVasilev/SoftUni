@@ -1,0 +1,10 @@
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\bin\Debug\netstandard2.0\03.MinHeap.deps.json
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\bin\Debug\netstandard2.0\03.MinHeap.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\bin\Debug\netstandard2.0\03.MinHeap.pdb
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\obj\Debug\netstandard2.0\03.MinHeap.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\obj\Debug\netstandard2.0\03.MinHeap.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\obj\Debug\netstandard2.0\03.MinHeap.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\obj\Debug\netstandard2.0\03.MinHeap.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\obj\Debug\netstandard2.0\03.MinHeap.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\obj\Debug\netstandard2.0\03.MinHeap.dll
+D:\Курс програмиране\CSharp - Data Structures Fundamentals\07.Heaps-BST-Exercise-Exercises-Skeleton\03.MinHeap\obj\Debug\netstandard2.0\03.MinHeap.pdb

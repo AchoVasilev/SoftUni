@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zFiGCkyg5dMAtdWO3H56Gi1bEBL1eAaA2dtOTVSNkcCvIJsndETuj/YNJwc0bBLUFc0+gfFnLi6Af9NChnBfZg==",
+  "success": true,
+  "projectFilePath": "D:\\Курс програмиране\\CSharp - Data Structures Fundamentals\\07.Heaps-BST-Exercise-Exercises-Skeleton\\01.BSTOperations\\01.BSTOperations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\defie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\defie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
