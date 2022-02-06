@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\bin\Debug\net6.0\5. Find All Paths in a Labyrinth.exe
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\bin\Debug\net6.0\5. Find All Paths in a Labyrinth.deps.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\bin\Debug\net6.0\5. Find All Paths in a Labyrinth.runtimeconfig.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\bin\Debug\net6.0\5. Find All Paths in a Labyrinth.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\bin\Debug\net6.0\ref\5. Find All Paths in a Labyrinth.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\bin\Debug\net6.0\5. Find All Paths in a Labyrinth.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\ref\5. Find All Paths in a Labyrinth.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\5. Find All Paths in a Labyrinth\obj\Debug\net6.0\5. Find All Paths in a Labyrinth.genruntimeconfig.cache

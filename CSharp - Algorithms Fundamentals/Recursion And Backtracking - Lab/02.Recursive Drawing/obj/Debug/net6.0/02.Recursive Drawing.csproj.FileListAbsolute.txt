@@ -1,0 +1,14 @@
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\bin\Debug\net6.0\02.Recursive Drawing.exe
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\bin\Debug\net6.0\02.Recursive Drawing.deps.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\bin\Debug\net6.0\02.Recursive Drawing.runtimeconfig.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\bin\Debug\net6.0\02.Recursive Drawing.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\bin\Debug\net6.0\ref\02.Recursive Drawing.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\bin\Debug\net6.0\02.Recursive Drawing.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\02.Recursive Drawing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\02.Recursive Drawing.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\02.Recursive Drawing.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\02.Recursive Drawing.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\02.Recursive Drawing.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\ref\02.Recursive Drawing.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\02.Recursive Drawing.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\02.Recursive Drawing\obj\Debug\net6.0\02.Recursive Drawing.genruntimeconfig.cache

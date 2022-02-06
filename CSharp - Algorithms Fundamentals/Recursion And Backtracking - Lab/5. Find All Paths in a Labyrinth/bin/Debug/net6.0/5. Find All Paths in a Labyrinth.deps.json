@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "5. Find All Paths in a Labyrinth/1.0.0": {
+        "runtime": {
+          "5. Find All Paths in a Labyrinth.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "5. Find All Paths in a Labyrinth/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

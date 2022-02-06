@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\bin\Debug\net6.0\03.Generating 0-1 Vectors.exe
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\bin\Debug\net6.0\03.Generating 0-1 Vectors.deps.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\bin\Debug\net6.0\03.Generating 0-1 Vectors.runtimeconfig.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\bin\Debug\net6.0\03.Generating 0-1 Vectors.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\bin\Debug\net6.0\ref\03.Generating 0-1 Vectors.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\bin\Debug\net6.0\03.Generating 0-1 Vectors.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\ref\03.Generating 0-1 Vectors.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\03.Generating 0-1 Vectors\obj\Debug\net6.0\03.Generating 0-1 Vectors.genruntimeconfig.cache

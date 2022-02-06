@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\bin\Debug\net6.0\04. Recursive Factorial.exe
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\bin\Debug\net6.0\04. Recursive Factorial.deps.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\bin\Debug\net6.0\04. Recursive Factorial.runtimeconfig.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\bin\Debug\net6.0\04. Recursive Factorial.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\bin\Debug\net6.0\ref\04. Recursive Factorial.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\bin\Debug\net6.0\04. Recursive Factorial.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\ref\04. Recursive Factorial.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\04. Recursive Factorial\obj\Debug\net6.0\04. Recursive Factorial.genruntimeconfig.cache

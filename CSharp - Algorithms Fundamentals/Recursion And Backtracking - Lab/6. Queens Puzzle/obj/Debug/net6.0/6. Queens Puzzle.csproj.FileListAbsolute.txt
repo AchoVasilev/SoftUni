@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\bin\Debug\net6.0\6. Queens Puzzle.exe
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\bin\Debug\net6.0\6. Queens Puzzle.deps.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\bin\Debug\net6.0\6. Queens Puzzle.runtimeconfig.json
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\bin\Debug\net6.0\6. Queens Puzzle.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\bin\Debug\net6.0\ref\6. Queens Puzzle.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\bin\Debug\net6.0\6. Queens Puzzle.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.AssemblyInfo.cs
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\ref\6. Queens Puzzle.dll
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.pdb
+D:\Курс програмиране\CSharp Algorithms Fundamentals\01.Recursion And Backtracking - Lab\6. Queens Puzzle\obj\Debug\net6.0\6. Queens Puzzle.genruntimeconfig.cache
