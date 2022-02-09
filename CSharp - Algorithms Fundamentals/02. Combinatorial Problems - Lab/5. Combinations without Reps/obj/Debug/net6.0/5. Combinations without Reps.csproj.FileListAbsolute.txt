@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\bin\Debug\net6.0\5. Combinations without Reps.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\bin\Debug\net6.0\5. Combinations without Reps.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\bin\Debug\net6.0\5. Combinations without Reps.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\bin\Debug\net6.0\5. Combinations without Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\bin\Debug\net6.0\ref\5. Combinations without Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\bin\Debug\net6.0\5. Combinations without Reps.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\ref\5. Combinations without Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\5. Combinations without Reps\obj\Debug\net6.0\5. Combinations without Reps.genruntimeconfig.cache

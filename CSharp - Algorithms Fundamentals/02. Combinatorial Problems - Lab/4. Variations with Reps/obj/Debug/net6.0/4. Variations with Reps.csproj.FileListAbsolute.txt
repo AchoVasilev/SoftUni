@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\bin\Debug\net6.0\4. Variations with Reps.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\bin\Debug\net6.0\4. Variations with Reps.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\bin\Debug\net6.0\4. Variations with Reps.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\bin\Debug\net6.0\4. Variations with Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\bin\Debug\net6.0\ref\4. Variations with Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\bin\Debug\net6.0\4. Variations with Reps.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\ref\4. Variations with Reps.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\4. Variations with Reps\obj\Debug\net6.0\4. Variations with Reps.genruntimeconfig.cache

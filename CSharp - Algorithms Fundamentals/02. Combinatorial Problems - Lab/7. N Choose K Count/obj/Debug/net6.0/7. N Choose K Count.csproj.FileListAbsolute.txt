@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\bin\Debug\net6.0\7. N Choose K Count.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\bin\Debug\net6.0\7. N Choose K Count.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\bin\Debug\net6.0\7. N Choose K Count.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\bin\Debug\net6.0\7. N Choose K Count.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\bin\Debug\net6.0\ref\7. N Choose K Count.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\bin\Debug\net6.0\7. N Choose K Count.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\ref\7. N Choose K Count.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\02. Combinatorial Problems - Lab\02. Combinatorial Problems - Lab\7. N Choose K Count\obj\Debug\net6.0\7. N Choose K Count.genruntimeconfig.cache
