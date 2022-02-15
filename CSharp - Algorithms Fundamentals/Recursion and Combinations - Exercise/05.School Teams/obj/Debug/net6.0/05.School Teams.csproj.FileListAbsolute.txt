@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\bin\Debug\net6.0\05.School Teams.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\bin\Debug\net6.0\05.School Teams.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\bin\Debug\net6.0\05.School Teams.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\bin\Debug\net6.0\05.School Teams.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\bin\Debug\net6.0\ref\05.School Teams.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\bin\Debug\net6.0\05.School Teams.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\ref\05.School Teams.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\05.School Teams\obj\Debug\net6.0\05.School Teams.genruntimeconfig.cache

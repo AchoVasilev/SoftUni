@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\bin\Debug\net6.0\02.NestedLoops To Recursion.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\bin\Debug\net6.0\02.NestedLoops To Recursion.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\bin\Debug\net6.0\02.NestedLoops To Recursion.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\bin\Debug\net6.0\02.NestedLoops To Recursion.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\bin\Debug\net6.0\ref\02.NestedLoops To Recursion.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\bin\Debug\net6.0\02.NestedLoops To Recursion.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\ref\02.NestedLoops To Recursion.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\02.NestedLoops To Recursion\obj\Debug\net6.0\02.NestedLoops To Recursion.genruntimeconfig.cache

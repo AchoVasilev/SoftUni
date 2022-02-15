@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\bin\Debug\net6.0\01.ReverseArray.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\bin\Debug\net6.0\01.ReverseArray.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\bin\Debug\net6.0\01.ReverseArray.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\bin\Debug\net6.0\01.ReverseArray.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\bin\Debug\net6.0\ref\01.ReverseArray.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\bin\Debug\net6.0\01.ReverseArray.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\ref\01.ReverseArray.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\01.ReverseArray\obj\Debug\net6.0\01.ReverseArray.genruntimeconfig.cache

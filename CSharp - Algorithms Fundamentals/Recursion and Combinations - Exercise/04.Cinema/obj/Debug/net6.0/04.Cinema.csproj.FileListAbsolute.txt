@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\bin\Debug\net6.0\04.Cinema.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\bin\Debug\net6.0\04.Cinema.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\bin\Debug\net6.0\04.Cinema.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\bin\Debug\net6.0\04.Cinema.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\bin\Debug\net6.0\ref\04.Cinema.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\bin\Debug\net6.0\04.Cinema.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\ref\04.Cinema.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\04.Cinema\obj\Debug\net6.0\04.Cinema.genruntimeconfig.cache

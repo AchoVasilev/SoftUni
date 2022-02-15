@@ -1,0 +1,15 @@
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\bin\Debug\net6.0\3.Connected Areas in a Matrix.exe
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\bin\Debug\net6.0\3.Connected Areas in a Matrix.deps.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\bin\Debug\net6.0\3.Connected Areas in a Matrix.runtimeconfig.json
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\bin\Debug\net6.0\3.Connected Areas in a Matrix.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\bin\Debug\net6.0\ref\3.Connected Areas in a Matrix.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\bin\Debug\net6.0\3.Connected Areas in a Matrix.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.csproj.AssemblyReference.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.AssemblyInfoInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.AssemblyInfo.cs
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.csproj.CoreCompileInputs.cache
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\ref\3.Connected Areas in a Matrix.dll
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.pdb
+D:\Курс програмиране\CSharp - Algorithms Fundamentals\Recursian And Combinatorics Exercise\3.Connected Areas in a Matrix\obj\Debug\net6.0\3.Connected Areas in a Matrix.genruntimeconfig.cache
