@@ -1,0 +1,81 @@
+#team {
+    padding: 64px 1rem;
+}
+
+#team .title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#team .team-members{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#team .team-member{
+    position: relative;
+    overflow: hidden;
+}
+
+#team .team-member .poster{
+    width: 100%;
+}
+
+#team .team-member::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2b6cb0;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+#team .team-member .info{
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    z-index: 10;
+    padding: 1rem;
+    transition: bottom 300ms ease-in-out;
+}
+
+#team .team-member:hover .info{
+    bottom: 0;
+}
+
+#team .team-member .info .name,
+#team .team-member .info .about,
+#team .team-member .info .job {
+    color: #fff;
+    margin-bottom: 0.85rem;
+}
+
+#team .team-member .info .job{
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#team .team-member .info .about{
+    line-height: 1.3;
+}
+
+#team .team-member .info .contacts li{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+#team .team-member .info .contacts li a{
+    font-size: 32px;
+    color: #fff;
+    transition: color 300ms ease-in-out;
+}
+
+#team .team-member .info .contacts li a:hover{
+    color: #667eea;
+}
