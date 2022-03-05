@@ -1,0 +1,275 @@
+@import url('./reset.css');
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.header-title-heading{
+    font-size: 24px;
+}
+
+.header-title-heading span:first-child{
+    color: #50494D;
+}
+
+.header-title-heading span:last-child{
+    color: #32A3B6;
+}
+
+.header-nav{
+    display: flex;
+    padding-right: 0;
+}
+
+.header-nav-list-item{
+    padding: 20px;
+    margin: 0 1px;
+}
+
+.header-nav-list-item a{
+    text-decoration: none;
+    color: #475868;
+}
+
+.header-nav-list-item a:hover{
+    border-bottom: 3px solid #70C8D5;
+}
+
+/* Promote section */
+
+.promote{
+    height: 70vh;
+    background-image: url('../images/slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.promote-texting{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 10px 16px 10px;
+    margin: 200px 150px;
+    color: white;
+}
+
+.promote-text{
+    font-size: 34px;
+    padding: 10px 5px;
+}
+
+.btn{
+    background-color: #008CBA;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+    padding: 8px 24px;
+    margin-left: 15px;
+}
+
+/* Intro */
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 150px;
+    color: #545455;
+}
+
+.intro-heading{
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.intro-heading span{
+    border-bottom: 3px solid #32A3B6;
+}
+
+.intro-text{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.intro-btn{
+    background-color: #454545;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Services */
+.services{
+    background-color: #EEF0F1;
+    padding: 30px 100px;
+    color: #545455;
+}
+
+.services-heading{
+    text-align: center;      
+    font-size: 32px;
+    padding-bottom: 25px;
+    position: relative;
+    flex-basis: 100%;
+}
+
+.services-heading::after{
+    content: '';
+    width: 8%;
+    background-color: #484848;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    left: 608px;
+}
+
+.services-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.service{
+    flex-basis: 30%;
+    padding: 30px 20px;
+}
+
+.service-img{
+    width: 400px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    overflow: hidden;
+}
+
+.service-img img{
+    width: 100%;
+}
+
+.service-desc{
+    background-color: white;
+    padding: 25px 19px;
+}
+
+.service-title{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.service-text{
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.service-btn{
+    background-color: #454545;
+    color: white;
+    margin: 8px 126px;
+    padding: 7px 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Newsletter */
+.newsletter{
+    background-color: #393F43;
+    padding: 30px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-heading{
+    color: white;
+    font-size: 32px;
+    position: relative;
+}
+
+.newsletter-heading::after{
+    content: "";
+    width: 20%;
+    background-color: white;
+    height: 2px;
+    position: absolute;
+    bottom: -3px;
+    left: 215px;
+}
+
+.newsletter-text{
+    color: white;
+    margin: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+input{
+    background-color: #545A5E;
+    border: none;
+    padding: 10px 400px 10px 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.form-btn{
+    background-color: #6BBFFF;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    background-color: #2F3539;
+}
+
+.footer-menu{
+    display: flex;
+    padding: 20px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-menu-nav-item{
+    padding: 13px;
+}
+.footer-menu-nav-item a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-menu:last-child{
+    background-color: #262B2F;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-copyright-rights span{
+    color: blue;
+}
+
+.footer .footer-menu:last-child{
+    background-color: #2F3539;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}

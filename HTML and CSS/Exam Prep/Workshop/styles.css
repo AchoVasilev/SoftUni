@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    padding: 15px 80px;
+    box-shadow: 1px 1px 9px -5px black;
+}
+
+@media all and (max-width: 1200px){
+    .nav{
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+}
+
+@media all and (max-width: 850px){
+    .nav-menu{
+        flex-direction: column;
+    }
+
+    .nav-menu li{
+        margin: 7px auto;
+    }
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    list-style: none;
+    margin: 0 7px;
+}
+
+@media all and (max-width: 850px){
+    .nav-menu{
+        flex-direction: column;
+    }
+
+    .nav-menu li{
+        margin: 7px auto;
+    }
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #535169;
+}
+
+.btn{
+    background-color: #9B5DC6;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px -5px black;
+}
+
+/* Header Certificates */
+
+.header-certificates{
+    margin: 5px 0;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-certificates-content{
+    margin-right: 100px;
+}
+
+.header-certificates-content-title{
+    color: #535169;
+}
+
+.header-certificates-content-subtitle{
+    color: #9C9B9B;
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.header-certificates-img{
+    position: relative;
+}
+
+.header-certificates-img::before{
+    content: '';
+    background-color: #54546D;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -2;
+    top: -315px;
+    right: -106px;
+}
+
+.header-certificates-img::after{
+    background: url('./images/award.svg');
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: top;
+    background-size: contain;
+    top: -100px;
+    left: 174px;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width: 1200px){
+    .header-certificates-img::after,
+    .header-certificates-img::before{
+        display: none;
+    }
+
+    .header-certificates{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .header-certificates-img{
+        margin-top: 50px;
+    }
+
+    .header-certificates-content{
+        margin-right: 0;
+    }
+}
+
+.cpe{
+    background-color: #14162B;
+    color: #FFFFFF;
+    padding: 40px 80px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.cpe-content{
+    margin-right: 70px;
+}
+
+.cpe-img{
+    position: relative;
+    top: 88px;
+}
+
+@media all and (max-width: 1000px){
+    .cpe{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .cpe-content{
+        margin-right: 0;
+    }
+
+    .cpe-img{
+        top: 20px;
+    }
+}
+
+.career-assistance{
+    margin-top: 100px;
+    display: flex;
+    padding: 30px 80px;
+}
+
+.career-assistance-img{
+    margin-right: 50px;
+}
+
+.career-assistance-img img{
+    border-radius: 12px;
+}
+
+.career-assistance-content-title{
+    color: #53546D;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.career-assistance-content-text{
+    line-height: 27px;
+}
+
+.light-btn{
+    background-color: #fff;
+    color: #9754C3;
+    border: 1px solid #9754C3;
+    border-radius: 20px;
+    padding: 12px 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 1000px){
+    .career-assistance{
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 30px 20px;
+    }
+
+    .career-assistance-img{
+        order: 2;
+        margin-top: 40px;
+    }
+
+    .career-assistance-content-text{
+        order: 1;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .career-assistance-img img{
+        width: 100%;
+    }
+}
+
+footer{
+    background-color: #2C2C3A;
+    color: white;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-menu-title{
+    font-weight: bold;
+    color: #9C5DC6;
+    margin: 0 0 20px 0;
+}
+
+.footer-menu-nav{
+    padding-left: 0;
+}
+
+.footer-menu-nav-item{
+    list-style: none;
+    margin: 9px 0;
+}
+
+.footer-menu-nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu-social{
+    margin-bottom: 35px;
+}
+
+.footer-menu-social i{
+    font-size: 30px;
+    margin: 0 12px 0 0;
+}
+
+.footer-copyright-rights{
+    font-size: 14px;
+}
+
+@media all and (max-width: 1000px){
+    footer{
+        flex-wrap: wrap;
+    }
+}
