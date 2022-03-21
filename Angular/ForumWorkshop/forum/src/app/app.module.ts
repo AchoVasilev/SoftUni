@@ -5,19 +5,25 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { ThemeComponent } from './theme/theme.component';
 import { ContentService } from './content.service';
+import { UserModule } from './user/user.module';
+import { ThemeModule } from './theme/theme.module';
+import { SharedModule } from './shared/shared.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ThemeComponent
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    HttpClientModule,
     CoreModule,
-    HttpClientModule
+    SharedModule,
+    ThemeModule,
+    UserModule,
+    AppRoutingModule
   ],
   providers: [
     ContentService

@@ -1,6 +1,8 @@
+import { IPost } from "./post"
+
 export interface ITheme {
     subscribers: string[],
-    posts: string[],
+    posts: IPost[],
     _id: string,
     themeName: string,
     userId: {
