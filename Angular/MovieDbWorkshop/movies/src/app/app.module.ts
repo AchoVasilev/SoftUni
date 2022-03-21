@@ -10,6 +10,9 @@ import { MovieService } from './services/movie.service';
 import { HttpClientModule } from '@angular/common/http';
 import { MovieComponent } from './movie/movie.component';
 import { FooterComponent } from './footer/footer.component';
+import { MovieDetailsComponent } from './movie-details/movie-details.component';
+import { FormsModule } from '@angular/forms';
+import { MovieSearchComponent } from './movie-search/movie-search.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +21,15 @@ import { FooterComponent } from './footer/footer.component';
     LandingComponent,
     MoviesComponent,
     MovieComponent,
-    FooterComponent
+    FooterComponent,
+    MovieDetailsComponent,
+    MovieSearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]
