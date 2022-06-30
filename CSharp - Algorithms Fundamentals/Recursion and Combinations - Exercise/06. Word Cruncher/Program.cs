@@ -1,79 +1,84 @@
-﻿class Program
+using System;
+using System.Collections.Generic;
+
+namespace WordCruncher
 {
-    private static string target;
-    private static Dictionary<int, List<string>> wordsByIndex;
-    private static Dictionary<string, int> wordsCount;
-    private static LinkedList<string> usedWords;
-
-    public static void Main()
+    class Program
     {
-        wordsByIndex = new();
-        wordsCount = new();
-        usedWords = new();
+        private static Dictionary<int, List<string>> wordsByIndex;
+        private static Dictionary<string, int> wordsCount;
+        private static LinkedList<string> usedWords;
 
-        var words = Console.ReadLine().Split(", ");
-        target = Console.ReadLine();
-
-        foreach (var word in words)
+        public static void Main()
         {
-            var index = target.IndexOf(word);
+            wordsByIndex = new Dictionary<int, List<string>>();
+            wordsCount = new Dictionary<string, int>();
+            usedWords = new LinkedList<string>();
 
-            if (index == -1)
+            var words = Console.ReadLine().Split(", ");
+            var target = Console.ReadLine();
+
+            foreach (var word in words)
             {
-                continue;
-            }
+                var index = target.IndexOf(word);
 
-            if (wordsCount.ContainsKey(word))
-            {
-                wordsCount[word]++;
-                continue;
-            }
-
-            wordsCount[word] = 1;
-
-            while (index != -1)
-            {
-                if (wordsByIndex.ContainsKey(index))
+                if (index == -1)
                 {
-                    wordsByIndex[index] = new List<string>();
+                    continue;
                 }
 
-                wordsByIndex[index].Add(word);
+                if (wordsCount.ContainsKey(word))
+                {
+                    wordsCount[word]++;
+                    continue;
+                }
 
-                index = target.IndexOf(word, index + 1);
+                wordsCount[word] = 1;
+
+                while (index != -1)
+                {
+                    if (!wordsByIndex.ContainsKey(index))
+                    {
+                        wordsByIndex[index] = new List<string>();
+                    }
+
+                    wordsByIndex[index].Add(word);
+
+                    index = target.IndexOf(word, index + 1);
+                }
             }
+
+            GenerateSolutions(0, target);
         }
 
-        GenerateSolutions(0);
-    }
-
-    private static void GenerateSolutions(int index)
-    {
-        if (index == target.Length)
+        private static void GenerateSolutions(int index, string target)
         {
-            Console.WriteLine(string.Join(" ", usedWords));
-            return;
-        }
-
-        if (wordsByIndex.ContainsKey(index) == false)
-        {
-            return;
-        }
-
-        foreach (var word in wordsByIndex[index])
-        {
-            if (wordsCount[word] == 0)
+            if (index == target.Length)
             {
-                continue;
+                Console.WriteLine(string.Join(" ", usedWords));
+                return;
             }
 
-            wordsCount[word]--;
-            usedWords.AddLast(word);
+            if (wordsByIndex.ContainsKey(index) == false)
+            {
+                return;
+            }
 
-            GenerateSolutions(index + word.Length);
+            foreach (var word in wordsByIndex[index])
+            {
+                if (wordsCount[word] == 0)
+                {
+                    continue;
+                }
 
-            wordsCount[word]++;
-            usedWords.RemoveLast();
+                wordsCount[word]--;
+                usedWords.AddLast(word);
+
+                GenerateSolutions(index + word.Length, target);
+
+                wordsCount[word]++;
+                usedWords.RemoveLast();
+            }
         }
     }
 }
