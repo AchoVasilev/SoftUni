@@ -1,6 +1,8 @@
-﻿namespace _04.Cinema
+namespace _04.Cinema
 {
+    using System;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text;
 
     public class Program
@@ -28,7 +30,7 @@
 
                 var parts = line.Split(" - ", StringSplitOptions.RemoveEmptyEntries);
                 var name = parts[0];
-                var place = int.Parse(parts[1]);
+                var place = int.Parse(parts[1]) - 1;
 
                 people[place] = name;
                 locked[place] = true;
@@ -50,7 +52,7 @@
 
             Permute(index + 1);
 
-            for (int i = 0; i < nonStaticPeople.Count; i++)
+            for (int i = index + 1; i < nonStaticPeople.Count; i++)
             {
                 Swap(index, i);
                 Permute(index + 1);
@@ -79,7 +81,7 @@
             {
                 if (locked[i])
                 {
-                   sb.Append($"{people[i]} ");
+                    sb.Append($"{people[i]} ");
                 }
                 else
                 {
